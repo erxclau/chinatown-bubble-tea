@@ -21,6 +21,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+env:
+  VITE_MAPBOX_TOKEN: ${{ secrets.VITE_MAPBOX_TOKEN }}
+
 jobs:
   # Build job
   build:
