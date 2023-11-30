@@ -1,4 +1,5 @@
 {
+  "type": "module",
 	"dependencies": {
 		"mapbox-gl": "^3.0.0",
 		"vite": "^5.0.4"
